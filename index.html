@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Puffs — My Real Lover </title>
+  <title>Puffs — My Real Lover</title>
 
   <!-- Confetti library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
@@ -178,6 +178,7 @@
       width: 100%;
       height: 260px;
       object-fit: cover;
+      object-position: top; /* Ensures heads are visible */
       border-radius: 2px;
       margin-bottom: 25px;
       box-shadow: 0 15px 35px rgba(0,0,0,0.2);
@@ -189,6 +190,7 @@
       height: 190px;
       border-radius: 50%;
       object-fit: cover;
+      object-position: top; /* Ensures heads are visible */
       margin: 0 auto 25px;
       border: 8px solid #fff;
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
@@ -281,37 +283,39 @@
 
   <div class="storybook">
     
-  <!-- PAGE 1 -->
-  <div class="page active" id="page1">
-    <h2>Chapter One</h2>
-    <h1>The Story of Us</h1>
-    <img src="real-lover1.png" class="pixar-circle">
-    <p>
-      This isn’t a fairytale.<br>
-      It’s just two people who found each other, stayed,<br>
-      and kept choosing each other — even when it wasn’t easy.
-    </p>
-    <button class="btn" onclick="nextPage(2)">Open Memory</button>
-  </div>
+    <!-- PAGE 1 -->
+    <div class="page active" id="page1">
+      <h2>Chapter One</h2>
+      <h1>The Story of Us</h1>
+      <img src="http://googleusercontent.com/image_generation_content/0" alt="Puffs Pixar" class="pixar-circle">
+      <p>
+        This isn’t a fairytale.<br>
+        It’s just two people who found each other, stayed,<br>
+        and kept choosing each other — even when it wasn’t easy.
+      </p>
+      <button class="btn" onclick="nextPage(2)">Open Memory</button>
+    </div>
 
-  <!-- PAGE 2 -->
-  <div class="page" id="page2">
-    <h2>Chapter Two</h2>
-    <h1>How It Started</h1>
-    <img src="Maggie-1.png" class="hero-img">
-    <ul class="reasons-list">
-      <li>The small conversations that turned into long ones</li>
-      <li>How being with you feels calm, not forced</li>
-      <li>How you made space feel like home without trying</li>
-    </ul>
-    <button class="btn" onclick="nextPage(3)">Keep Going</button>
-  </div>
+    <!-- PAGE 2 -->
+    <div class="page" id="page2">
+      <h2>Chapter Two</h2>
+      <h1>How It Started</h1>
+      <!-- Replace with your uploaded image URL -->
+      <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=800" class="hero-img">
+      <ul class="reasons-list">
+        <li>The small conversations that turned into long ones</li>
+        <li>How being with you feels calm, not forced</li>
+        <li>How you made space feel like home without trying</li>
+      </ul>
+      <button class="btn" onclick="nextPage(3)">Keep Going</button>
+    </div>
 
     <!-- PAGE 3: THE CHOICE -->
     <div class="page" id="page3">
       <h2>Chapter Three</h2>
       <h1>The Great Ask</h1>
-      <img src="begging.jpeg" alt="Us" class="hero-img">
+      <!-- Replace with your uploaded image URL -->
+      <img src="https://images.unsplash.com/photo-1516589174184-c685365759d8?auto=format&fit=crop&q=80&w=800" alt="Us" class="hero-img">
       <p>"So my real lover, my baby, my last slice of agege bread, Puffs, I'm asking yours..."</p>
       <h1 style="font-size: 22px; color: #000;">Will you be my Valentine?</h1>
       
@@ -325,7 +329,7 @@
     <div class="page" id="page4">
       <div class="success-icon">✦</div>
       <h1>A New Beginning</h1>
-      <img src="up-love.png" alt="Happy Puffs" class="hero-img" style="height: 300px;">
+      <img src="http://googleusercontent.com/image_generation_content/0" alt="Happy Puffs" class="hero-img" style="height: 300px;">
       <p>"And so the fire burns brighter than ever. I'm so lucky to have you, Puffs."</p>
       <div style="margin-top: 5px; border-top: 2px solid var(--primary); padding-top: 15px;">
         <p style="font-size: 14px; color: #000; font-family: sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: 3px;">Eternal Spark ❤️</p>
